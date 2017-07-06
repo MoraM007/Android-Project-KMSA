@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sayed.car_seervice.Sign_up">
+
+    <RelativeLayout
+        android:id="@+id/Company"
+        android:layout_width="418dp"
+        android:layout_height="669dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/so"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="-11dp">
+
+        <Button
+            android:id="@+id/Companyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Login"
+            android:layout_alignStart="@+id/Login"
+            android:layout_below="@+id/Login"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="93dp"
+            android:text="Company"
+            tools:text="Companyy" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
